@@ -1,0 +1,41 @@
+{
+  "name": "adf-widget-nucleon",
+  "version": "0.1.0",
+  "main": "dist/adf-widget-nucleon.js",
+  "ignore": [
+    "bower.json",
+    ".bowerrc",
+    ".jshintrc",
+    ".gitignore",
+    "gulpfile.js",
+    "node_modules",
+    "package.json",
+    "components",
+    "src"
+  ],
+  "keywords": [
+    "dashboard",
+    "widget",
+    "adf",
+    "adf-widget"
+  ],
+  "description": "Show report for nucleon",
+  "dependencies": {
+    "angular-dashboard-framework": ">=0.10",
+    "bower": "*",
+    "install": "^1.0.4",
+    "angular-chart.js": "^1.1.1"
+  },
+  "devDependencies": {
+    "angular-local-storage": ">=0.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
